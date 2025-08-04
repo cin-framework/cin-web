@@ -1,0 +1,7 @@
+/**
+ * CIN Framework Sidebar Component
+ * @package CIN Framework
+ * @author Mawi Man
+ * @license Proprietary - All rights reserved to Ayoub Alarjani
+ */
+function getCurrentPathPrefix(){return window.location.pathname.includes("/p/")?"/p/":""}function generateSidebarHTML(){const n=getCurrentPathPrefix();return`\n        <aside class="cin-sidebar" id="sidebar">\n            <nav class="cin-sidebar-nav">\n                <div class="cin-sidebar-section">\n                    <ul class="cin-nav-list">\n                        <li><a href="${n}main.html" class="cin-sidebar-item" data-translate="main">MAIN</a></li>\n                    </ul>\n                </div>\n                <div class="cin-sidebar-section">\n                    <h4 class="cin-sidebar-title">CIN</h4>\n                    <ul class="cin-nav-list">\n                        <li><a href="${n}about_cin.html" class="cin-sidebar-item" data-translate="about_cin">About cin</a></li>\n                    </ul>\n                </div>\n            </nav>\n        </aside>\n    `}function initializeSidebar(n="sidebar-container"){const e=document.getElementById(n);if(e)e.innerHTML=generateSidebarHTML();else{const n=generateSidebarHTML();document.body.insertAdjacentHTML("afterbegin",n)}}document.addEventListener("DOMContentLoaded",(function(){document.getElementById("sidebar")||initializeSidebar()})),window.CinSidebar={generate:generateSidebarHTML,initialize:initializeSidebar,getPathPrefix:getCurrentPathPrefix};
