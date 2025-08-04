@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="CIN.png" alt="CIN Logo" width="300">
+  <img src="assets/img/CIN.svg" alt="CIN Logo" width="300">
 </p>
 
 <h1 align="center">CIN FRAMEWORK – WEB 4 – POWERED BY LOCAL SELF-SUFFICIENCY AND AGGRESSIVE SECURITY</h1>
