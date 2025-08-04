@@ -7,3 +7,8 @@
 <p align="center">
   🔗 <a href="https://www.cin-framework.com">www.cin-framework.com</a>
 </p>
+
+
+
+
+> Development Status: CIN Framework is currently in active development. Join our mailing list to be the first to know when it's ready!
