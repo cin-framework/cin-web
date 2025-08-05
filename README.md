@@ -8,4 +8,4 @@
   🔗 <a href="https://www.cin-framework.com">www.cin-framework.com</a>
 </p>
 
-> Note: This is a repository dedicated to 🔗 <a href="https://www.cin-framework.com">www.cin-framework.com</a>
+> Note: This is a repository dedicated to the website https://www.cin-framework.com
