@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIN Framework</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./../assets/css/style-min.css">
+</head>
+<body>
+    <div id="loadingScreen">
+        <div class="cin-loading-spinner"></div>
+        <p class="cin-text-lead" data-translate="loading_message">Loading CIN Framework...</p>
+    </div>
+    <header class="cin-header">
+        <button class="cin-menu-toggle" onclick="toggleSidebar()">☰</button>
+        <img src="./../assets/img/CIN.svg" alt="" srcset="" width="40" height="40">
+        <div class="cin-language-toggle">
+            <button class="cin-lang-btn active" onclick="setLanguage('en')">EN</button>
+            <button class="cin-lang-btn" onclick="setLanguage('ar')">AR</button>
+        </div>
+    </header>
+    <main class="cin-main">
+        <div class="cin-coming-soon cin-fade-in">
+            <!-- Hero Section -->
+            <div class="cin-hero-badge">
+                <span data-translate="privacy_hero_badge">🔐 سياسة الخصوصية الخاصة بـ CIN FRAMEWORK</span>
+            </div>
+
+            <h1 class="cin-heading-1 cin-mb-8" data-translate="privacy_title">سياسة الخصوصية</h1>
+            
+            <p class="cin-text-lead cin-mb-8" data-translate="privacy_intro">
+                في إطار CIN FRAMEWORK، نحن نولي أهمية قصوى لاحترام خصوصيتك وحماية بياناتك الشخصية. نحن ندرك تمامًا أن المعلومات التي تقدمها لنا ليست مجرد بيانات، بل هي امتداد لوجودك الرقمي، ومسؤوليتنا تجاهك تقتضي الشفافية الكاملة فيما يتعلق بكيفية استخدام هذه المعلومات، والغرض منها، والجهات التي قد تطلع عليها.
+            </p>
+
+            <div class="cin-alert cin-alert-info cin-mb-8">
+                <p class="cin-text-body" data-translate="privacy_description">
+                    تهدف هذه الصفحة إلى توضيح سياسة الخصوصية التي نتبعها، والإجراءات المتخذة لحماية معلوماتك، والخيارات المتاحة لك بشأن بياناتك. باستخدامك لموقعنا الإلكتروني أو أي من خدماتنا، فإنك توافق ضمنيًا على جميع الممارسات والسياسات الموضحة أدناه.
+                </p>
+            </div>
+
+            <!-- Accordion Section -->
+            <div class="cin-accordion cin-mb-8">
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_1_title">أولاً: المعلومات التي نقوم بجمعها</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_1_content">
+                            نقوم بجمع أنواع متعددة من البيانات عند تفاعلك مع منصتنا، وتشمل ما يلي:<br><br>
+                            <strong>1. المعلومات التي تقدمها طوعًا:</strong><br>
+                            عند التسجيل في الموقع أو الاشتراك في نشرتنا البريدية أو التواصل معنا، قد نطلب منك معلومات تعريفية مثل: الاسم الكامل، عنوان البريد الإلكتروني، المسمى الوظيفي، اسم الشركة، الدولة، أو غيرها من التفاصيل.<br><br>
+                            <strong>2. المعلومات التقنية التي تُجمع تلقائيًا:</strong><br>
+                            • عنوان بروتوكول الإنترنت (IP)<br>
+                            • نوع الجهاز ونظام التشغيل<br>
+                            • نوع المتصفح وإصداره<br>
+                            • الصفحات التي تزورها، ومدة البقاء، وتواريخ الوصول<br>
+                            • سلوك المستخدم داخل الموقع<br><br>
+                            <strong>3. ملفات تعريف الارتباط (Cookies):</strong><br>
+                            نستخدم تقنيات تتبع متقدمة لتحليل سلوك المستخدم داخل المنصة، وتخصيص تجربته، وتحسين خدماتنا بناءً على التفاعل الفعلي.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_2_title">ثانيًا: كيف نستخدم هذه البيانات؟</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_2_content">
+                            نقوم باستخدام البيانات التي نجمعها في إطار CIN FRAMEWORK للأغراض التالية:<br><br>
+                            • لتحسين تجربة المستخدم وتطوير المحتوى بما يتوافق مع اهتمامات الزوار<br>
+                            • لتقديم خدمات مخصصة بناءً على نوع المستخدم (مبتدئ، محترف، شركة)<br>
+                            • للرد على الاستفسارات والدعم الفني أو الإداري<br>
+                            • لإرسال تحديثات، إعلانات، مقالات تعليمية، أو عروض تقنية عبر البريد الإلكتروني<br>
+                            • لأغراض تحليلية داخلية تشمل تتبع الأداء، وتقييم نقاط القوة والضعف في المنصة<br>
+                            • لضمان الأمان ومنع أي نشاط غير مشروع أو غير مصرّح به
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_3_title">ثالثًا: حماية البيانات وأمنها</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_3_content">
+                            نتعامل مع أمن المعلومات بمنتهى الجدية. وقد قمنا بدمج مجموعة من الإجراءات الأمنية الصارمة — التقنية والتنظيمية — لحماية بيانات المستخدمين من أي وصول غير مصرح به، أو تعديل، أو فقدان، أو تدمير، بما في ذلك على سبيل المثال لا الحصر:<br><br>
+                            • استخدام بروتوكولات تشفير قوية لنقل البيانات<br>
+                            • الجدران النارية (Firewalls) ومضادات الاختراق<br>
+                            • أنظمة المراقبة الاستباقية للسلوك الشاذ داخل النظام<br>
+                            • الصلاحيات المحدودة داخل البنية الخلفية، بحيث لا يُتاح الوصول إلا للمصرّح لهم فقط
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_4_title">رابعًا: مشاركة البيانات مع جهات خارجية</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_4_content">
+                            بشكل عام، لا نقوم ببيع أو تأجير أو مشاركة معلوماتك الشخصية مع أي طرف ثالث. ومع ذلك، قد نشارك بعض البيانات في الحالات التالية:<br><br>
+                            • مع شركات أو مزودين نعمل معهم لتحسين الخدمات (مع الالتزام التام بعدم استخدامها لأغراض تجارية)<br>
+                            • إذا تطلب الأمر قانونيًا ذلك بناءً على طلب رسمي من الجهات المختصة<br>
+                            • لحماية حقوقنا أو لفرض شروط الاستخدام أو للكشف عن أنشطة احتيالية أو تهديدات أمنية
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_5_title">خامسًا: حقوق المستخدم</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_5_content">
+                            نحن نمنحك السيطرة الكاملة على بياناتك. ويحق لك ما يلي:<br><br>
+                            • طلب نسخة من بياناتك الشخصية المخزنة لدينا<br>
+                            • طلب تصحيح أي خطأ أو تعديل بياناتك<br>
+                            • طلب حذف جميع بياناتك بشكل نهائي<br>
+                            • سحب موافقتك على استخدام بياناتك في أي وقت<br><br>
+                            يمكنك ممارسة هذه الحقوق بالتواصل معنا مباشرة عبر البريد الإلكتروني التالي:<br>
+                            📧 support@cin-framework.com
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_6_title">سادسًا: استخدام ملفات تعريف الارتباط (Cookies)</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_6_content">
+                            نستخدم ملفات الكوكيز لتقديم تجربة أفضل وأكثر تخصيصًا، وتشمل هذه الملفات:<br><br>
+                            • ملفات تعريف الجلسة (Session Cookies)<br>
+                            • ملفات تتبع التحليلات (Analytics Cookies)<br>
+                            • ملفات التخصيص والخيارات المفضلة<br><br>
+                            يمكنك التحكم في ملفات الكوكيز من خلال إعدادات متصفحك، ولكن تعطيلها قد يؤثر على بعض ميزات الموقع.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_7_title">سابعًا: مدة الاحتفاظ بالبيانات</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_7_content">
+                            نحتفظ ببياناتك طالما أن ذلك ضروري للأغراض التي جُمعت من أجلها، أو طالما أن حسابك نشط، أو بحسب ما يقتضيه القانون. بعد ذلك، يتم حذف البيانات نهائيًا أو جعلها غير قابلة للتتبع.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_8_title">ثامنًا: تعديلات سياسة الخصوصية</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_8_content">
+                            قد نقوم بتحديث هذه السياسة في أي وقت، ويُعد استمرارك في استخدام الموقع بعد التعديلات موافقة ضمنية على النسخة المعدلة. نوصي بمراجعة هذه الصفحة بشكل دوري.<br><br>
+                            آخر تحديث لهذه السياسة: 6 أغسطس 2025
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cin-accordion-item">
+                    <div class="cin-accordion-header" onclick="toggleAccordion(this)">
+                        <h3 class="cin-heading-4" data-translate="privacy_section_9_title">تاسعًا: التواصل معنا</h3>
+                        <span class="cin-accordion-icon">+</span>
+                    </div>
+                    <div class="cin-accordion-content">
+                        <p class="cin-text-body" data-translate="privacy_section_9_content">
+                            لأي استفسار، أو شكوى، أو طلب يتعلق ببياناتك، يمكنك مراسلتنا عبر البريد الإلكتروني الرسمي:<br>
+                            📧 privacy@cin-framework.com<br><br>
+                            أو عبر البريد التقني العام للدعم:<br>
+                            📧 contact@cin-framework.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Final Section -->
+            <div class="cin-alert cin-alert-warning cin-text-center">
+                <h3 class="cin-heading-4 cin-mb-4" data-translate="privacy_final_title">CIN FRAMEWORK - السيطرة الرقمية</h3>
+                <p class="cin-text-body" data-translate="privacy_final_content">
+                    نحن في CIN FRAMEWORK نؤمن أن المعرفة قوة…<br>
+                    لكن البيانات — حين تُستخدم بذكاء — هي مفتاح السيطرة.<br>
+                    وكل من يدخل نطاقنا الرقمي، نمنحه الأمان الظاهري… ونتحكم به في الخفاء.
+                </p>
+            </div>
+        </div>
+    </main>
+    <button class="cin-btn-fab" onclick="scrollToTop()" title="Scroll to top">
+        ↑
+    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="./../assets/js/sidebar-min.js"></script>
+    <script src="./../assets/js/script-min.js"></script>
+</body>
+</html>
