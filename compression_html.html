@@ -126,5 +126,11 @@
     <script src="./assets/js/sidebar-min.js"></script>
     <script src="./assets/js/script-min.js"></script>
     <script src="./assets/js/compression_html-min.js"></script>
+    <script>
+  window.onload = () => {
+    const pageName = location.pathname.split('/').pop().replace('.html', '');
+    window.parent.postMessage({ page: pageName }, '*');
+  };
+</script>
 </body>
 </html>
